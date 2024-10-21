@@ -1,6 +1,6 @@
 # SR71 - Search and Replace Plugin for Neovim
 
-SR71 is a Neovim plugin that provides powerful search and replace functionality using both regex and plain text. It allows users to perform replacements throughout the current buffer and offers convenient confirmation prompts.
+SR-71 (Search Replace - 71) is a Neovim plugin that provides powerful search and replace functionality using both regex and plain text. It allows users to perform replacements throughout the current buffer and offers convenient confirmation prompts.
 
 ## Features
 
@@ -20,20 +20,20 @@ Add the following to your Neovim configuration file (usually `init.lua`):
 
 ```lua
 require('lazy').setup({
-  { 'your-username/sr71' } -- Replace with your repository path
+  { '4rtemis-4rrow/SR-71.nvim' }
 })
 ```
 
 ### Using [Packer](https://github.com/wbthomason/packer.nvim)
 
 ```lua
-use 'your-username/sr71' -- Replace with your repository path
+use '4rtemis-4rrow/SR-71.nvim'
 ```
 
 ### Using [vim-plug](https://github.com/junegunn/vim-plug)
 
 ```vim
-Plug 'your-username/sr71' -- Replace with your repository path
+Plug '4rtemis-4rrow/SR-71.nvim'
 ```
 
 ## Setup
