@@ -143,9 +143,9 @@ function M.setup(opts)
   }
 
   -- Set keybindings
-  vim.api.nvim_set_keymap('n', keybindings.replace_regex, ":lua require('sr71').replace_with_regex()<CR>", { noremap = true, silent = true })
-  vim.api.nvim_set_keymap('n', keybindings.replace_text, ":lua require('sr71').replace_with_plain_text()<CR>", { noremap = true, silent = true })
-  vim.api.nvim_set_keymap('n', keybindings.replace_word, ":lua require('sr71').replace_word_under_cursor()<CR>", { noremap = true, silent = true })
+  vim.api.nvim_set_keymap('n', keybindings.replace_regex, ":lua require('sr71').replace_with_regex()<CR>", { noremap = true, silent = true, desc = 'Search And Replace Regex Patterns' })
+  vim.api.nvim_set_keymap('n', keybindings.replace_text, ":lua require('sr71').replace_with_plain_text()<CR>", { noremap = true, silent = true, desc = 'Search And Replace Plain Text' })
+  vim.api.nvim_set_keymap('n', keybindings.replace_word, ":lua require('sr71').replace_word_under_cursor()<CR>", { noremap = true, silent = true, desc = 'Replace All occurrences Of The Word Under The Cursor' })
 end
 
 return M
